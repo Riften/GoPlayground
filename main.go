@@ -8,5 +8,6 @@ import (
 func main() {
 
 	fmt.Println("0.0")
-	t:= NewTInterfa
+	t:= Interface.NewTInterface("aaaaa")
+	t.PrintValue()
 }
